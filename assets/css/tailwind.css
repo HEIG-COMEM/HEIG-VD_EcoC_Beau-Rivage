@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Antartica';
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url('/fonts/Antartica-Light.otf') format('otf');
+    }
+}
+
+a {
+    transition: all 0.2s ease;
+}
+
+a:not(:has(svg, img)):hover {
+    opacity: 0.5;
+}
+
+.c2a {
+    @apply bg-backgroundSand;
+    transition: all 0.5s ease;
+}
+
+.c2a:hover {
+    opacity: 1;
+    @apply bg-transparent text-black;
+}

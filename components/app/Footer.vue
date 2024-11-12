@@ -5,27 +5,41 @@
         <div class="flex flex-row bg-white">
             <div class="footer-img hidden w-[50%] md:block"></div>
             <div
-                class="flex flex-col items-center gap-8 px-28 py-20 md:items-start"
+                class="flex flex-col items-center gap-8 px-20 py-28 md:items-start"
             >
-                <p class="text-2xl">Gardons le contact</p>
-                <p class="text-sm">
+                <p class="text-2xl font-bold uppercase">Gardons le contact</p>
+                <p class="text-md">
                     Abonnez-vous à notre newsletter et ne manquez plus les
                     dernières nouvelles !
                 </p>
-                <a class="px-5 py-9 text-xl">S’abonner à la newsletter</a>
+                <a class="c2a bg-backgroundSand px-8 py-5 text-xl" href="#"
+                    >S’abonner à la newsletter</a
+                >
                 <div>
                     <p class="mb-4 text-sm">Suivez-nous sur :</p>
                     <div class="flex flex-row items-center gap-5">
-                        <a rel="noreferrer nofollow" aria-label="Facebook"
+                        <a
+                            rel="noreferrer nofollow"
+                            aria-label="Facebook"
+                            href="#"
                             ><SvgFacebookLogo />
                         </a>
-                        <a rel="noreferrer nofollow" aria-label="Instagram"
+                        <a
+                            rel="noreferrer nofollow"
+                            aria-label="Instagram"
+                            href="#"
                             ><SvgInstagramLogo />
                         </a>
-                        <a rel="noreferrer nofollow" aria-label="LinkedIn"
+                        <a
+                            rel="noreferrer nofollow"
+                            aria-label="LinkedIn"
+                            href="#"
                             ><SvgLinkedinLogo
                         /></a>
-                        <a rel="noreferrer nofollow" aria-label="Youtube"
+                        <a
+                            rel="noreferrer nofollow"
+                            aria-label="Youtube"
+                            href="#"
                             ><SvgYoutubeLogo />
                         </a>
                     </div>
@@ -50,15 +64,39 @@
                 <div
                     class="flex max-h-14 flex-row flex-wrap items-center justify-center gap-4"
                 >
-                    <SvgLeadersClubHorzLogo />
-                    <SvgSwissDeluxeHotelsLogo />
-                    <img src="/img/SwissTrainable.png" class="h-14" />
+                    <a
+                        href="https://fr.lhw.com/"
+                        rel="noreferrer nofollow"
+                        aria-label="Leading Hotels of the World"
+                    >
+                        <SvgLeadersClubHorzLogo />
+                    </a>
+                    <a
+                        href="https://www.swissdeluxehotels.com/"
+                        rel="noreferrer nofollow"
+                        aria-label="Swiss Deluxe Hotels"
+                    >
+                        <SvgSwissDeluxeHotelsLogo />
+                    </a>
+                    <a
+                        href="https://www.myswitzerland.com/fr-ch/planification/vie-pratique/la-suisse-durable-par-nature/prestataires-de-services-swisstainable/#InpageNavigation1_0"
+                        rel="noreferrer nofollow"
+                        aria-label="Swiss Trainable"
+                    >
+                        <img src="/img/SwissTrainable.png" class="h-14" />
+                    </a>
                 </div>
             </div>
             <div
                 class="mt-16 flex flex-col items-center justify-between gap-8 xl:mt-0 xl:flex-row"
             >
-                <SvgSandozFoundationHotel />
+                <a
+                    href="#"
+                    rel="noreferrer nofollow"
+                    aria-label="Sandoz Foundation Hotels"
+                >
+                    <SvgSandozFoundationHotel />
+                </a>
                 <div class="flex flex-row flex-wrap justify-center gap-4">
                     <a href="https://www.lausanne-palace.ch/accueil/"
                         >Lausanne Palace</a
@@ -79,7 +117,7 @@
         >
             <nav aria-label="Secondary">
                 <ul
-                    class="flex flex-row flex-wrap items-center justify-center gap-4"
+                    class="text-tertiary flex flex-row flex-wrap items-center justify-center gap-4 text-xs"
                 >
                     <li><a href="#">Galerie</a></li>
                     <li><a href="#">Carrière</a></li>
@@ -102,5 +140,9 @@
     background-image: url('/img/contact.png');
     background-size: cover;
     background-position: center;
+}
+
+address {
+    font-style: normal;
 }
 </style>
