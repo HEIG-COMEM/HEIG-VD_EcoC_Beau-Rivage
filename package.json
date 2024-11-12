@@ -1,17 +1,24 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "dependencies": {
-    "nuxt": "^3.14.159",
-    "vue": "latest",
-    "vue-router": "latest"
-  }
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "lint:write": "prettier --write --ignore-path .gitignore \"**/*.{js,ts,vue,json,css,scss,less,html}\"",
+        "lint:check": "prettier --check --ignore-path .gitignore \"**/*.{js,ts,vue,json,css,scss,less,html}\""
+    },
+    "dependencies": {
+        "@nuxtjs/tailwindcss": "^6.12.2",
+        "nuxt": "^3.14.159",
+        "vue": "latest",
+        "vue-router": "latest"
+    },
+    "devDependencies": {
+        "prettier": "^3.3.3",
+        "prettier-plugin-tailwindcss": "^0.6.8"
+    }
 }
