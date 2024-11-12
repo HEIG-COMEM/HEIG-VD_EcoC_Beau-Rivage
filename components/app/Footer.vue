@@ -83,7 +83,11 @@
                         rel="noreferrer nofollow"
                         aria-label="Swiss Trainable"
                     >
-                        <img src="/img/SwissTrainable.png" class="h-14" />
+                        <NuxtImg
+                            src="/img/SwissTrainable.png"
+                            preset="small"
+                            class="h-14"
+                        />
                     </a>
                 </div>
             </div>

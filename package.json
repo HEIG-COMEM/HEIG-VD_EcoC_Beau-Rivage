@@ -12,6 +12,7 @@
         "lint:check": "prettier --check --ignore-path .gitignore \"**/*.{js,ts,vue,json,css,scss,less,html}\""
     },
     "dependencies": {
+        "@nuxt/image": "^1.8.1",
         "@nuxtjs/tailwindcss": "^6.12.2",
         "nuxt": "^3.14.159",
         "vue": "latest",
