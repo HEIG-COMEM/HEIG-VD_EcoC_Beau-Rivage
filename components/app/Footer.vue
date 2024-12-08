@@ -3,7 +3,15 @@
 <template>
     <footer>
         <div class="flex flex-row bg-white">
-            <div class="footer-img hidden w-[50%] md:block"></div>
+            <div class="footer-img hidden w-[50%] md:block">
+                <NuxtImg
+                    src="/img/contact.png"
+                    format="webp"
+                    quality="30"
+                    loading="lazy"
+                    class="h-full w-full"
+                />
+            </div>
             <div
                 class="flex flex-col items-center gap-8 px-20 py-28 md:items-start"
             >
@@ -46,7 +54,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-background flex flex-col gap-24 px-28 py-16">
+        <div class="flex flex-col gap-24 bg-background px-28 py-16">
             <div
                 class="flex flex-col items-center justify-between gap-16 xl:flex-row"
             >
@@ -121,7 +129,7 @@
         >
             <nav aria-label="Secondary">
                 <ul
-                    class="text-tertiary flex flex-row flex-wrap items-center justify-center gap-4 text-xs"
+                    class="flex flex-row flex-wrap items-center justify-center gap-4 text-xs text-tertiary"
                 >
                     <li><a href="#">Galerie</a></li>
                     <li><a href="#">Carrière</a></li>
@@ -140,12 +148,6 @@
 </template>
 
 <style scoped>
-.footer-img {
-    background-image: url('/img/contact.png');
-    background-size: cover;
-    background-position: center;
-}
-
 address {
     font-style: normal;
 }

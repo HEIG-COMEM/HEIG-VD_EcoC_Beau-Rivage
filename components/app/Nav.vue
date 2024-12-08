@@ -19,7 +19,7 @@ const isMenuOpen = ref(false);
         </div>
         <nav
             class="absolute flex h-full flex-col justify-between bg-white text-xl"
-            :class="{ showMenu: !isMenuOpen }"
+            :class="{ showMenu: isMenuOpen }"
         >
             <div>
                 <form action="" method="get" class="mb-8">

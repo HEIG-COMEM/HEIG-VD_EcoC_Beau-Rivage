@@ -7,6 +7,7 @@ export default defineNuxtConfig({
         cssPath: '~/assets/css/tailwind.css',
     },
     image: {
+        quality: 80,
         format: ['webp'],
         presets: {
             small: {
