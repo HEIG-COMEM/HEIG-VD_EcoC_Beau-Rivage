@@ -29,3 +29,8 @@ a:not(:has(svg, img)):hover {
     opacity: 1;
     @apply bg-transparent text-black;
 }
+
+body {
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
