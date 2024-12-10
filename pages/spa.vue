@@ -55,6 +55,7 @@
             src="/img/SpaGuerlain_Interieur01-BD.png"
             class="object-cover object-left md:w-1/2"
             format="webp"
+            loading="lazy"
         />
     </div>
     <div class="hr"></div>
@@ -103,6 +104,7 @@
             src="/img/SpaGuerlain_Interieur02-BD.png"
             class="object-cover object-left md:w-1/2"
             format="webp"
+            loading="lazy"
         />
     </div>
     <div class="hr"></div>
@@ -133,6 +135,7 @@
             src="/img/SpaGuerlain_Interieur03-BD.png"
             class="object-cover object-left md:w-1/2"
             format="webp"
+            loading="lazy"
         />
     </div>
     <div class="hr"></div>
