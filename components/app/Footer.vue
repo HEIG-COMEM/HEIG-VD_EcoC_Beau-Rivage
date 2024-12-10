@@ -2,18 +2,11 @@
 
 <template>
     <footer>
-        <div class="flex flex-row bg-white">
-            <div class="footer-img hidden w-[50%] md:block">
-                <NuxtImg
-                    src="/img/contact.png"
-                    format="webp"
-                    quality="30"
-                    loading="lazy"
-                    class="h-full w-full"
-                />
-            </div>
+        <div
+            class="flex flex-col justify-between gap-16 bg-white px-28 py-28 md:flex-row"
+        >
             <div
-                class="flex flex-col items-center gap-8 px-20 py-28 md:items-start"
+                class="flex flex-col items-center gap-8 text-center md:items-start md:text-left"
             >
                 <p class="text-2xl font-bold uppercase">Gardons le contact</p>
                 <p class="text-md">
@@ -23,34 +16,24 @@
                 <a class="c2a bg-backgroundSand px-8 py-5 text-xl" href="#"
                     >S’abonner à la newsletter</a
                 >
-                <div>
-                    <p class="mb-4 text-sm">Suivez-nous sur :</p>
-                    <div class="flex flex-row items-center gap-5">
-                        <a
-                            rel="noreferrer nofollow"
-                            aria-label="Facebook"
-                            href="#"
-                            ><SvgFacebookLogo />
-                        </a>
-                        <a
-                            rel="noreferrer nofollow"
-                            aria-label="Instagram"
-                            href="#"
-                            ><SvgInstagramLogo />
-                        </a>
-                        <a
-                            rel="noreferrer nofollow"
-                            aria-label="LinkedIn"
-                            href="#"
-                            ><SvgLinkedinLogo
-                        /></a>
-                        <a
-                            rel="noreferrer nofollow"
-                            aria-label="Youtube"
-                            href="#"
-                            ><SvgYoutubeLogo />
-                        </a>
-                    </div>
+            </div>
+            <div
+                class="flex flex-col items-center justify-center md:items-start md:self-end"
+            >
+                <p class="mb-4 text-sm">Suivez-nous sur :</p>
+                <div class="flex flex-row items-center gap-5">
+                    <a rel="noreferrer nofollow" aria-label="Facebook" href="#"
+                        ><SvgFacebookLogo />
+                    </a>
+                    <a rel="noreferrer nofollow" aria-label="Instagram" href="#"
+                        ><SvgInstagramLogo />
+                    </a>
+                    <a rel="noreferrer nofollow" aria-label="LinkedIn" href="#"
+                        ><SvgLinkedinLogo
+                    /></a>
+                    <a rel="noreferrer nofollow" aria-label="Youtube" href="#"
+                        ><SvgYoutubeLogo />
+                    </a>
                 </div>
             </div>
         </div>
@@ -58,7 +41,7 @@
             <div
                 class="flex flex-col items-center justify-between gap-16 xl:flex-row"
             >
-                <address class="flex flex-row gap-12 text-lg">
+                <address class="flex flex-row gap-12 uppercase">
                     <div>
                         Hôtel Beau-Rivage Palace<br />
                         Chemin de Beau-Rivage 21<br />
@@ -142,7 +125,7 @@
                     <li><a href="#">Gestion des données</a></li>
                 </ul>
             </nav>
-            <p class="text-right text-xs text-tertiary">
+            <p class="text-center text-xs text-tertiary md:text-right">
                 © Beau-Rivage Palace 2023
             </p>
         </div>

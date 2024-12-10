@@ -18,7 +18,7 @@ const isMenuOpen = ref(false);
             </div>
         </div>
         <nav
-            class="absolute flex h-full flex-col items-center justify-between bg-white text-xl"
+            class="absolute flex h-full w-screen flex-col justify-between bg-white text-xl lg:w-[27vw] lg:items-center"
             :class="{ showMenu: isMenuOpen }"
         >
             <div>
@@ -79,9 +79,7 @@ const isMenuOpen = ref(false);
                     </a>
                 </div>
                 <div class="newsletter mt-5">
-                    <a class="py-5 text-xl" href="#"
-                        >S’inscrire à la newsletter</a
-                    >
+                    <a class="py-5" href="#">S’inscrire à la newsletter</a>
                 </div>
                 <div class="leaders-club mt-8">
                     <a
@@ -100,7 +98,6 @@ const isMenuOpen = ref(false);
 nav {
     top: 0;
     left: 6rem;
-    width: 25vw;
     padding: 8vh 5vw;
     background-color: white;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
