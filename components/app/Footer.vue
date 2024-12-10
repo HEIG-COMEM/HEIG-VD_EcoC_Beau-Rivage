@@ -142,7 +142,9 @@
                     <li><a href="#">Gestion des données</a></li>
                 </ul>
             </nav>
-            <p class="text-right">© Beau-Rivage Palace 2023</p>
+            <p class="text-right text-xs text-tertiary">
+                © Beau-Rivage Palace 2023
+            </p>
         </div>
     </footer>
 </template>

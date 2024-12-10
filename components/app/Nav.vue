@@ -18,7 +18,7 @@ const isMenuOpen = ref(false);
             </div>
         </div>
         <nav
-            class="absolute flex h-full flex-col justify-between bg-white text-xl"
+            class="absolute flex h-full flex-col items-center justify-between bg-white text-xl"
             :class="{ showMenu: isMenuOpen }"
         >
             <div>
@@ -100,9 +100,10 @@ const isMenuOpen = ref(false);
 nav {
     top: 0;
     left: 6rem;
-    width: 50vw;
+    width: 25vw;
     padding: 8vh 5vw;
     background-color: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
     transform: translateX(-150%);
     transition: transform 0.3s ease-in-out;
     z-index: 999;
