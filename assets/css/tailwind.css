@@ -25,3 +25,61 @@ body {
     line-height: 1.5;
     @apply text-pretty;
 }
+
+address {
+    font-style: normal;
+}
+
+hr {
+    border-top: 1px solid #e5e5e5;
+    margin: 4.5rem 0 1.5rem 0;
+}
+
+.hr {
+    border-top: 1px solid #e5e5e5;
+    margin: 4.5rem 7rem 1.5rem 7rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem; /* 110% */
+    letter-spacing: 0.03125rem;
+    text-transform: uppercase;
+
+    margin-bottom: 1.7rem;
+}
+
+.paragraph {
+    font-size: 0.96094rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5rem; /* 156.098% */
+    letter-spacing: 0.03125rem;
+
+    margin-bottom: 1.5rem;
+}
+
+.paragraph.italic {
+    font-size: 0.96875rem;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.5rem; /* 154.839% */
+    letter-spacing: 0.03125rem;
+}
+
+.paragraph.list {
+    list-style-type: disc;
+    padding-left: 0.8rem;
+}
+
+.paragraph.list ::marker {
+    color: #3a3a3a;
+    font-size: 0.75rem;
+    margin-right: 0.5rem;
+}
+
+.paragraph.list li {
+    padding-left: 1.5rem;
+}

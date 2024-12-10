@@ -132,8 +132,4 @@
     </footer>
 </template>
 
-<style scoped>
-address {
-    font-style: normal;
-}
-</style>
+<style scoped></style>
