@@ -31,7 +31,7 @@ const isMenuOpen = ref(false);
                             placeholder="Rechercher"
                             class=""
                         />
-                        🔍
+                        <SvgSearch width="20" />
                     </div>
                 </form>
                 <ul>
