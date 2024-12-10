@@ -23,8 +23,8 @@ export default {
         border: '#E0E0E0', // Bordure
       },
       fontFamily: {
-        sans: ['Antartica', 'Arial', 'sans-serif'],
-        heading: ['Antartica', 'sans-serif'],
+        sans: ['Verdana', 'sans-serif'],
+        heading: ['Verdana', 'sans-serif'],
         serif: ['Georgia', 'serif'],
       },
       fontWeight: {

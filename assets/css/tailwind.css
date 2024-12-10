@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    @font-face {
-        font-family: 'Antartica';
-        font-style: normal;
-        font-weight: 100;
-        font-display: swap;
-        src: url('/fonts/Antartica-Light.otf') format('otf');
-    }
-}
-
 a {
     transition: all 0.2s ease;
 }
