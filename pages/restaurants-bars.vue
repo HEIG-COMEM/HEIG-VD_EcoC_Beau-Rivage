@@ -1,4 +1,39 @@
-<script setup></script>
+<script setup>
+const restaurants = ref([
+    {
+        img: '/img/PIC.png',
+        title: 'PIC au Beau-Rivage Palace',
+        desc: 'Restaurant gastronomique',
+    },
+    {
+        img: '/img/PIC.png',
+        title: 'Café Beau-Rivage',
+        desc: 'Brasserie de luxe',
+    },
+    {
+        img: '/img/PIC.png',
+        title: 'Kaigan',
+        desc: 'Restaurant japonais',
+    },
+]);
+
+const loadMore = async () => {
+    const { data } = await useFetch('/api/restaurants');
+
+    restaurants.value.push(...data.value);
+
+    const uniqueRestaurants = restaurants.value.filter(
+        (restaurant, index, self) =>
+            index ===
+            self.findIndex(
+                (t) =>
+                    t.title === restaurant.title && t.desc === restaurant.desc
+            )
+    );
+
+    restaurants.value = uniqueRestaurants;
+};
+</script>
 
 <template>
     <h1 class="sr-only">Restaurant Anne-Sophie Pic</h1>
@@ -162,6 +197,13 @@
             <!-- TODO: Add Cards component once ready -->
         </div>
     </div>
+    <button @click="loadMore">PLUS</button>
+    <NuxtImg
+        v-for="restaurant in restaurants"
+        :src="restaurant.img"
+        format="webp"
+        quality="1"
+    />
 </template>
 
 <style scoped>
