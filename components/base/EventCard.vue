@@ -26,7 +26,7 @@ const [day, month, year] = formattedDate.split(' ');
 </script>
 
 <template>
-    <div class="max-w-sm overflow-hidden bg-white">
+    <div class="w-96 overflow-hidden bg-white">
         <div class="flex p-6">
             <div
                 class="bg-backgroundAccent bottom-4 left-4 flex h-32 w-32 items-center justify-center rounded-full"
@@ -38,8 +38,8 @@ const [day, month, year] = formattedDate.split(' ');
                 </div>
             </div>
         </div>
-        <div class="relative px-6 pb-16">
-            <div class="flex w-64 flex-col">
+        <div class="px-6">
+            <div class="flex w-72 flex-col">
                 <div class="mb-2 w-64 text-xl font-bold uppercase">
                     {{ title }}
                 </div>
@@ -47,10 +47,10 @@ const [day, month, year] = formattedDate.split(' ');
             </div>
             <a
                 :href="href"
-                class="bg-backgroundAccent absolute bottom-0 right-0 flex h-16 w-16 items-center justify-center"
+                class="bg-backgroundAccent mr-[-1.5rem] flex h-16 w-16 items-center justify-center justify-self-end"
             >
                 <div class="indicator-item">
-                    <SvgIconPlus class="" />
+                    <SvgIconPlus />
                 </div>
             </a>
         </div>

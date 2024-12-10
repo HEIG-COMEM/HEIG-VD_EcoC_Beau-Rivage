@@ -18,6 +18,7 @@ export default {
         background: '#F5F5F5', // Fond des sections
         backgroundSand: '#ECEBE6', // Fond des sections
         backgroundAccent: '#EDEBE5', // Fond des sections
+        backgroundHaze: '#EFF2F2', // Fond des sections
         dark: '#1A1A1A', // Couleur sombre
         light: '#FFFFFF', // Blanc
         highlight: '#FFD700', // Jaune doré

@@ -40,7 +40,18 @@ hr {
     margin: 4.5rem 7rem 1.5rem 7rem;
 }
 
-h2 {
+.h2 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 2.75rem; /* 110% */
+    letter-spacing: 0.03125rem;
+    text-transform: uppercase;
+
+    margin-bottom: 1.7rem;
+}
+
+.h3 {
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;

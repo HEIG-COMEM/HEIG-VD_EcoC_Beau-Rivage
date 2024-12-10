@@ -1,8 +1,11 @@
 <script setup></script>
 
 <template>
+    <h1 class="sr-only">Restaurant Anne-Sophie Pic</h1>
     <div class="flex flex-col lg:flex-row">
-        <div class="left-col bg-background px-28 py-20 lg:w-1/3">
+        <div
+            class="left-col bg-backgroundHaze justify-items-center px-28 py-20 lg:w-1/3"
+        >
             <NuxtImg src="/img/PIC.png" />
             <address class="text-center text-sm">
                 Chemin de Beau-Rivage 21
@@ -38,7 +41,7 @@
                 </BaseRestaurantTag>
             </div>
             <div>
-                <h2>Informations pratiques</h2>
+                <h2 class="h3">Informations pratiques</h2>
                 <p class="paragraph text-xs">
                     <span class="font-bold"
                         >Du mardi au samedi : de 12h00 à 13h30 et de 19h00 à
@@ -55,7 +58,7 @@
             </div>
         </div>
         <div class="bg-white px-28 py-20 lg:w-2/3">
-            <h2>Le nouvel écrin d'Anne-Sophie Pic</h2>
+            <h3 class="h3">Le nouvel écrin d'Anne-Sophie Pic</h3>
             <p class="paragraph">
                 L’univers d’Anne-Sophie Pic au Beau-Rivage Palace à Lausanne,
                 c’est bien plus qu’un restaurant, c’est un cheminement en terres
@@ -96,7 +99,7 @@
                 savoir-faire d’excellence.
             </p>
             <hr />
-            <h2>Midi chez PIC</h2>
+            <h3 class="h3">Midi chez PIC</h3>
             <p class="paragraph">
                 "J’ai imaginé le menu ViaRhôna en 3 séquences pour les repas
                 d’affaires ou les rendez-vous entre amis, servi en moins de deux
@@ -125,12 +128,45 @@
             </div>
         </div>
     </div>
-    <div class="bg-background px-28 py-20">Lorem</div>
+    <div class="bg-background px-28 py-20">
+        <div class="mb-8 flex flex-row items-center justify-between">
+            <h2 class="h2 !mb-0">Agenda</h2>
+            <button class="c2a px-8 py-5 text-xl">Voir tout l'agenda</button>
+        </div>
+        <div class="flex flex-row flex-wrap justify-center gap-8">
+            <BaseEventCard
+                title="Brunch festif du Nouvel An"
+                date="2025-01-01"
+                desc="Un brunch de nouvel an dans une de nos plus belles salle à manger de l’hôtel ..."
+            />
+            <BaseEventCard
+                title="Brunch festif du Nouvel An"
+                date="2025-01-01"
+                desc="Un brunch de nouvel an dans une de nos plus belles salle à manger de l’hôtel ..."
+            />
+            <BaseEventCard
+                title="Brunch festif du Nouvel An"
+                date="2025-01-01"
+                desc="Un brunch de nouvel an dans une de nos plus belles salle à manger de l’hôtel ..."
+            />
+        </div>
+    </div>
+    <div class="bg-white px-28 py-20">
+        <div class="mb-8 flex flex-row items-center justify-between">
+            <h2 class="h2 !mb-0">Restaurants & Bars</h2>
+            <button class="c2a px-8 py-5 text-xl">
+                A noter dans l'agenda !
+            </button>
+        </div>
+        <div class="flex flex-row flex-wrap justify-center gap-8">
+            <!-- TODO: Add Cards component once ready -->
+        </div>
+    </div>
 </template>
 
 <style scoped>
 .left-col > *:not(:last-child) {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .path {

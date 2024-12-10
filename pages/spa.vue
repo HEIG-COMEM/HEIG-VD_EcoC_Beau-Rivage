@@ -37,7 +37,7 @@
         class="flex w-full flex-col-reverse justify-between gap-10 px-28 md:flex-row"
     >
         <div class="md:w-1/2">
-            <h2>Envisager le bien-être autrement</h2>
+            <h2 class="h3">Envisager le bien-être autrement</h2>
             <p class="paragraph">
                 Secrètement niché dans un écrin de verdure, le Spa du
                 Beau-Rivage Palace est un cocon qui agit sur le corps et
@@ -63,7 +63,7 @@
         class="flex w-full flex-col-reverse justify-between gap-10 px-28 md:flex-row-reverse"
     >
         <div class="md:w-1/2">
-            <h2>Un lieu de détente</h2>
+            <h2 class="h3">Un lieu de détente</h2>
             <p class="paragraph">
                 Point d’orgue du voyage, un patio orné d’un arbre de vie qui, de
                 par sa lumière ondoyante, enveloppe ses hôtes sous ses branches
@@ -112,7 +112,7 @@
         class="flex w-full flex-col-reverse justify-between gap-10 px-28 md:flex-row"
     >
         <div class="md:w-1/2">
-            <h2>Les invités</h2>
+            <h2 class="h3">Les invités</h2>
             <p class="paragraph">
                 Le Spa du Beau-Rivage Palace vous invite à vivre une expérience
                 unique et à rentrer dans l'un des univers de nos spécialistes
@@ -140,7 +140,7 @@
     </div>
     <div class="hr"></div>
     <div class="flex flex-col justify-center px-28 text-center">
-        <h2>Informations pratiques</h2>
+        <h2 class="h3">Informations pratiques</h2>
         <p class="paragraph">Ouvert tous les jours de 6h30 à 22h00.</p>
         <p class="paragraph">
             <span class="font-bold">Clients non-résidents :</span><br />
