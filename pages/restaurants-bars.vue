@@ -1,17 +1,17 @@
 <script setup>
 const restaurants = ref([
     {
-        img: '/img/PIC.png',
+        img: '/img/restaurants/1.png',
         title: 'PIC au Beau-Rivage Palace',
         desc: 'Restaurant gastronomique',
     },
     {
-        img: '/img/PIC.png',
+        img: '/img/restaurants/2.png',
         title: 'Café Beau-Rivage',
         desc: 'Brasserie de luxe',
     },
     {
-        img: '/img/PIC.png',
+        img: '/img/restaurants/3.png',
         title: 'Kaigan',
         desc: 'Restaurant japonais',
     },
