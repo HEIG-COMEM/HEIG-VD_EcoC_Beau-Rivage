@@ -173,17 +173,17 @@ const loadMore = async () => {
             <button class="c2a px-8 py-5 text-xl">Voir tout l'agenda</button>
         </div>
         <div class="flex flex-row flex-wrap justify-center gap-8">
-            <BaseEventCard
+            <BaseEventPackageCard
                 title="Brunch festif du Nouvel An"
                 date="2025-01-01"
                 desc="Un brunch de nouvel an dans une de nos plus belles salle à manger de l’hôtel ..."
             />
-            <BaseEventCard
+            <BaseEventPackageCard
                 title="Brunch festif du Nouvel An"
                 date="2025-01-01"
                 desc="Un brunch de nouvel an dans une de nos plus belles salle à manger de l’hôtel ..."
             />
-            <BaseEventCard
+            <BaseEventPackageCard
                 title="Brunch festif du Nouvel An"
                 date="2025-01-01"
                 desc="Un brunch de nouvel an dans une de nos plus belles salle à manger de l’hôtel ..."
