@@ -1,5 +1,9 @@
 <script setup>
 const isMenuOpen = ref(false);
+
+const closeMenu = () => {
+    isMenuOpen.value = false;
+};
 </script>
 
 <template>
@@ -36,28 +40,32 @@ const isMenuOpen = ref(false);
                 </form>
                 <ul>
                     <li>
-                        <router-link to="/">Hôtel</router-link>
+                        <router-link @click="closeMenu()" to="/"
+                            >Hôtel</router-link
+                        >
                     </li>
                     <li>
-                        <router-link to="/rooms-suites"
+                        <router-link @click="closeMenu()" to="/rooms-suites"
                             >Chambres & Suites</router-link
                         >
                     </li>
                     <li>
-                        <router-link to="/restaurants-bars"
+                        <router-link @click="closeMenu()" to="/restaurants-bars"
                             >Restaurants & Bars</router-link
                         >
                     </li>
                     <li>
-                        <router-link to="/spa">Spa Guerlain</router-link>
+                        <router-link @click="closeMenu()" to="/spa"
+                            >Spa Guerlain</router-link
+                        >
                     </li>
                     <li>
-                        <router-link to="/meeting-event"
+                        <router-link @click="closeMenu()" to="/meeting-event"
                             >Réunions & Évenements</router-link
                         >
                     </li>
                     <li>
-                        <router-link to="/leaders-club"
+                        <router-link @click="closeMenu()" to="/leaders-club"
                             >Leaders Club</router-link
                         >
                     </li>
