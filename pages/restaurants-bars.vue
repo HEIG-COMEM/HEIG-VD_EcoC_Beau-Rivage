@@ -17,6 +17,8 @@ const restaurants = ref([
     },
 ]);
 
+const showLoadMore = ref(true);
+
 const loadMore = async () => {
     const { data } = await useFetch('/api/restaurants');
 
@@ -32,6 +34,7 @@ const loadMore = async () => {
     );
 
     restaurants.value = uniqueRestaurants;
+    showLoadMore.value = false;
 };
 </script>
 
@@ -39,7 +42,7 @@ const loadMore = async () => {
     <h1 class="sr-only">Restaurant Anne-Sophie Pic</h1>
     <div class="flex flex-col lg:flex-row">
         <div
-            class="left-col bg-backgroundHaze justify-items-center px-28 py-20 lg:w-1/3"
+            class="left-col justify-items-center bg-backgroundHaze px-28 py-20 lg:w-1/3"
         >
             <NuxtImg src="/img/PIC.png" />
             <address class="text-center text-sm">
@@ -155,17 +158,18 @@ const loadMore = async () => {
                 Menu dès CHF 160.- hors boissons<br />
                 Parking offert
             </p>
-            <div class="flex flex-row justify-between">
-                <span class="path hidden xl:block xl:w-[60%]"></span>
-                <button class="c2a px-8 py-5 text-xl xl:w-[35%]">
+            <div class="flex flex-row justify-between gap-8">
+                <span class="path flex-grow"></span>
+                <button class="c2a px-8 py-5 text-xl">
                     Les offres de séjour
                 </button>
             </div>
         </div>
     </div>
     <div class="bg-background px-28 py-20">
-        <div class="mb-8 flex flex-row items-center justify-between">
+        <div class="mb-8 flex flex-row items-center gap-x-8">
             <h2 class="h2 !mb-0">Agenda</h2>
+            <span class="path flex-grow"></span>
             <button class="c2a px-8 py-5 text-xl">Voir tout l'agenda</button>
         </div>
         <div class="flex flex-row flex-wrap justify-center gap-8">
@@ -187,23 +191,29 @@ const loadMore = async () => {
         </div>
     </div>
     <div class="bg-white px-28 py-20">
-        <div class="mb-8 flex flex-row items-center justify-between">
-            <h2 class="h2 !mb-0">Restaurants & Bars</h2>
-            <button class="c2a px-8 py-5 text-xl">
-                A noter dans l'agenda !
-            </button>
-        </div>
-        <div class="flex flex-row flex-wrap justify-center gap-8">
-            <!-- TODO: Add Cards component once ready -->
+        <h2 class="h2">Restaurants & Bars</h2>
+        <div class="flex flex-col">
+            <div class="flex flex-row flex-wrap gap-2">
+                <BaseRestaurantBarCard
+                    v-for="restaurant in restaurants"
+                    :key="restaurant.title"
+                    :img="restaurant.img"
+                    :title="restaurant.title"
+                    :desc="restaurant.desc"
+                />
+            </div>
+            <div
+                class="mt-8 flex flex-row justify-center gap-8"
+                v-show="showLoadMore"
+            >
+                <span class="path flex-grow"></span>
+                <button class="c2a px-8 py-5" @click="loadMore">
+                    Voir plus
+                </button>
+                <span class="path flex-grow"></span>
+            </div>
         </div>
     </div>
-    <button @click="loadMore">PLUS</button>
-    <NuxtImg
-        v-for="restaurant in restaurants"
-        :src="restaurant.img"
-        format="webp"
-        quality="1"
-    />
 </template>
 
 <style scoped>
