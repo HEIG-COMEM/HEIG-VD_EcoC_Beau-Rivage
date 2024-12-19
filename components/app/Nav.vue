@@ -53,8 +53,8 @@ const toggleMenu = () => emits('toggleMenu');
                         >
                     </li>
                     <li>
-                        <a class="cursor-not-allowed line-through"
-                            >Chambres & Suites</a
+                        <router-link @click="closeMenu()" to="/rooms-suites"
+                            >Chambres & Suites</router-link
                         >
                     </li>
                     <li>
