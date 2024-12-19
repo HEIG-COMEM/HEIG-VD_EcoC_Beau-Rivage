@@ -1,9 +1,17 @@
 <script setup>
-const isMenuOpen = ref(false);
+// const isMenuOpen = ref(false);
 
-const closeMenu = () => {
-    isMenuOpen.value = false;
-};
+const props = defineProps({
+    isMenuOpen: {
+        type: Boolean,
+        default: false,
+    },
+});
+
+const emits = defineEmits(['closeMenu', 'toggleMenu']);
+
+const closeMenu = () => emits('closeMenu');
+const toggleMenu = () => emits('toggleMenu');
 </script>
 
 <template>
@@ -11,7 +19,7 @@ const closeMenu = () => {
         <div
             class="left-column absolute z-20 flex flex-col items-center justify-between bg-backgroundSand py-4"
         >
-            <div class="menu-icon" @click="isMenuOpen = !isMenuOpen">
+            <div class="menu-icon" @click="toggleMenu()">
                 <SvgBurgerMenu />
                 <span class="text-sm font-bold uppercase">Menu</span>
             </div>
@@ -45,8 +53,8 @@ const closeMenu = () => {
                         >
                     </li>
                     <li>
-                        <router-link @click="closeMenu()" to="/rooms-suites"
-                            >Chambres & Suites</router-link
+                        <a class="cursor-not-allowed line-through"
+                            >Chambres & Suites</a
                         >
                     </li>
                     <li>
@@ -60,13 +68,13 @@ const closeMenu = () => {
                         >
                     </li>
                     <li>
-                        <router-link @click="closeMenu()" to="/meeting-event"
-                            >Réunions & Évenements</router-link
+                        <a class="cursor-not-allowed line-through"
+                            >Réunions & Évenements</a
                         >
                     </li>
                     <li>
-                        <router-link @click="closeMenu()" to="/leaders-club"
-                            >Leaders Club</router-link
+                        <a class="cursor-not-allowed line-through"
+                            >Leaders Club</a
                         >
                     </li>
                 </ul>
