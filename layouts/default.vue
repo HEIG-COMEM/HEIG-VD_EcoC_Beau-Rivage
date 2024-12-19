@@ -9,7 +9,7 @@ const closeMenu = () => (isMenuOpen.value = false);
         @toggleMenu="isMenuOpen = !isMenuOpen"
         @closeMenu="closeMenu()"
     />
-    <div class="ml-24 w-fit">
+    <div class="ml-24 w-fit sm:w-auto">
         <main @click="closeMenu()">
             <slot />
         </main>

@@ -14,7 +14,7 @@ const props = defineProps({
     },
     href: {
         type: String,
-        required: false,
+        required: true,
     },
 });
 
@@ -27,8 +27,10 @@ const [day, month, year] = formattedDate.split(' ');
 
 <template>
     <div class="w-96 overflow-hidden bg-white">
-        <div v-if=props.date class="flex px-6 pt-6">
-            <div class="bg-backgroundAccent flex h-32 w-32 items-center justify-center rounded-full">
+        <div v-if="props.date" class="flex px-6 pt-6">
+            <div
+                class="flex h-32 w-32 items-center justify-center rounded-full bg-backgroundAccent"
+            >
                 <div class="text-center">
                     <p class="text-2xl font-bold">{{ day }}</p>
                     <p class="text-xs uppercase">{{ month }}</p>
@@ -41,10 +43,12 @@ const [day, month, year] = formattedDate.split(' ');
                 <div class="mb-2 w-64 text-xl font-bold uppercase">
                     {{ title }}
                 </div>
-                <div class="text-lg font-thin line-clamp-3">{{ desc }}</div>
+                <div class="line-clamp-3 text-lg font-thin">{{ desc }}</div>
             </div>
-            <a :href="href"
-                class="bg-backgroundAccent mr-[-1.5rem] flex h-16 w-16 items-center justify-center justify-self-end">
+            <a
+                :href="href"
+                class="mr-[-1.5rem] flex h-16 w-16 items-center justify-center justify-self-end bg-backgroundAccent"
+            >
                 <div class="indicator-item">
                     <SvgIconPlus />
                 </div>

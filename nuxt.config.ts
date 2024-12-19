@@ -28,8 +28,8 @@ export default defineNuxtConfig({
     },
     nitro: {
         prerender: {
-            routes: ['/', '/spa', '/restaurants-bars'],
-            ignore: [],
+            routes: ['/', '/spa', '/restaurants-bars', '/rooms-suites'],
+            ignore: ['/rooms/**'],
         },
     },
 });
