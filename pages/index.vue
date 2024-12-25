@@ -1,16 +1,35 @@
 <script setup></script>
 
 <template>
-  <div class="min-h-screen bg-background flex items-center justify-center">
-    <div class="p-8 bg-white shadow-lg rounded-lg">
-      <h1 class="text-4xl font-heading font-bold text-primary mb-4">Bienvenue sur Nuxt 3 avec Tailwind CSS !</h1>
-      <p class="text-secondary mb-6">Ceci est un test rapide pour vérifier la configuration de Tailwind.</p>
-      <button class="px-6 py-3 bg-highlight text-white font-semibold rounded hover:bg-highlight transition">
-        Appel à l'action
-      </button>
+    <h1 class="sr-only">Accueil</h1>
+    <AppHero />
+    <div class="px-28 py-20">
+        <div class="mb-32 text-center">
+            <p class="h4 mb-8 !font-bold">Éclat</p>
+            <p class="paragraph mb-7">
+                Comme un soleil déclinant offre au lac les reliefs irisés d’un
+                distrait diamantaire, le terme de l’année est aussi le temps
+                d’un bouquet final où se révèlent et rayonnent les plus beaux
+                éclats. C’est le regard de l’enfant heureux quand y scintille
+                l’émerveillement. Ce sont d’éphémères bulles évanescentes qui
+                aspirent à l’explosion de joie.
+            </p>
+            <p class="paragraph">
+                Afin que vos fêtes de Noël et de fin d’année palpitent plus
+                encore qu’à l’accoutumée, un Beau-Rivage Palace éclatant vous
+                proposera des rendez-vous de haute-gastronomie dans ses
+                restaurants, des soins sur mesure et exclusifs dans l’écrin
+                enveloppant de son Spa Guerlain et des séjours féériques dans
+                ses prestigieuses Suites.
+            </p>
+        </div>
+        <div>
+            <div class="flex flex-row justify-center gap-8 sm:justify-between">
+                <span class="path hidden flex-grow sm:block"></span>
+                <p class="c2a px-8 py-5">Programme des Festivités</p>
+            </div>
+        </div>
     </div>
-  </div>
 </template>
 
 <style scoped></style>
-
