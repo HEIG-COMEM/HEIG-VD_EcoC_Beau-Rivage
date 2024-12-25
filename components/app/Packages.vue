@@ -4,7 +4,7 @@
     <div>
         <div class="flex flex-row items-center">
             <h2 class="h2 !mb-0 pr-8">Forfaits</h2>
-            <div class="path flex-grow"></div>
+            <span class="path flex-grow"></span>
             <a href="/packages" class="c2a ml-8 px-8 py-5"
                 >Voir tous les forfaits</a
             >

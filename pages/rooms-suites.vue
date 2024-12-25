@@ -84,7 +84,7 @@ const loadMoreSuites = async () => {
         <div class="mb-20">
             <div class="flex flex-row">
                 <h2 class="h2 !mb-0 pr-8">Chambres</h2>
-                <div class="path flex-grow"></div>
+                <span class="path flex-grow"></span>
             </div>
             <div class="mt-12 flex flex-row flex-wrap gap-2">
                 <BaseRoomSuiteCard
@@ -110,7 +110,7 @@ const loadMoreSuites = async () => {
         <div>
             <div class="flex flex-row">
                 <h2 class="h2 !mb-0 pr-8">Suites</h2>
-                <div class="path flex-grow"></div>
+                <span class="path flex-grow"></span>
             </div>
             <div class="mt-12 flex flex-row flex-wrap gap-2">
                 <BaseRoomSuiteCard
