@@ -62,6 +62,17 @@ hr {
     margin-bottom: 1.7rem;
 }
 
+.h4 {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 110% */
+    letter-spacing: 0.03125rem;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
 .paragraph {
     font-size: 0.96094rem;
     font-style: normal;
@@ -93,4 +104,10 @@ hr {
 
 .paragraph.list li {
     padding-left: 1.5rem;
+}
+
+.path {
+    height: 1px;
+    align-self: center;
+    background-color: #e5e5e5;
 }

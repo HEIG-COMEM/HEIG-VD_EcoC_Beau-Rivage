@@ -220,10 +220,4 @@ const loadMore = async () => {
 .left-col > *:not(:last-child) {
     margin-bottom: 2.5rem;
 }
-
-.path {
-    height: 1px;
-    align-self: center;
-    background-color: #e5e5e5;
-}
 </style>
