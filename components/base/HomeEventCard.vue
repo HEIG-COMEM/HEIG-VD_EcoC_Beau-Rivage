@@ -1,35 +1,47 @@
-<script setup></script>
+<script setup>
+defineProps({
+    img: {
+        type: String,
+        required: true,
+    },
+    title: {
+        type: String,
+        required: true,
+    },
+    subtitle: {
+        type: String,
+        required: false,
+    },
+    isReversed: {
+        type: Boolean,
+        default: false,
+    },
+});
+</script>
 
 <template>
-    <article>
-        <header class="mb-5">
-            <h2 class="h3 uppercase">
-                Les rendez-vous du beau-rivage palace le grand concert de
-                l'épiphanie
-            </h2>
-            <p class="h5 font-bold uppercase">
-                Le grand concert de l'épiphanie
-            </p>
-        </header>
-        <section class="mb-12">
-            <p class="mb-5">
-                Pensez à réserver d’ores et déjà votre place pour notre grand
-                concert de l’Épiphanie, où l’Orchestre de Chambre de Lausanne –
-                réuni au complet et dirigé par son chef Renaud Capuçon –
-                célébrera Mozart et Beethoven dans notre salle d’apparat à
-                l’occasion d’un dimanche de rois.
-            </p>
-            <p class="font-bold">
-                <time datetime="2025-01-05T18:15:00"
-                    >Dimanche 5 janvier 2025 à 18h15</time
-                >
-            </p>
-        </section>
-        <section>
-            <BaseHomeEventC2A text="Réserver votre place">
-                <SvgSpaCalendar />
-            </BaseHomeEventC2A>
-        </section>
+    <article
+        class="flex flex-col items-center gap-5 lg:flex-row lg:items-start"
+        :class="{ 'lg:flex-row-reverse': isReversed }"
+    >
+        <NuxtImg
+            :src="img"
+            format="webp"
+            quality="80"
+            alt=""
+            class="w-full object-cover lg:w-1/2"
+        />
+        <div class="lg:w-1/2">
+            <header class="mb-5">
+                <h2 class="h3 uppercase">
+                    {{ title }}
+                </h2>
+                <p class="h5 font-bold uppercase" v-if="subtitle">
+                    {{ subtitle }}
+                </p>
+            </header>
+            <slot />
+        </div>
     </article>
 </template>
 
