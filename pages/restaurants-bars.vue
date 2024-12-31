@@ -42,7 +42,7 @@ const loadMore = async () => {
     <h1 class="sr-only">Restaurant Anne-Sophie Pic</h1>
     <div class="flex flex-col lg:flex-row">
         <div
-            class="left-col justify-items-center bg-backgroundHaze px-28 py-20 lg:w-1/3"
+            class="left-col justify-items-center bg-backgroundHaze px-4 py-20 lg:w-1/3 lg:px-28"
         >
             <NuxtImg src="/img/PIC.png" />
             <address class="text-center text-sm">
@@ -95,7 +95,7 @@ const loadMore = async () => {
                 </p>
             </div>
         </div>
-        <div class="bg-white px-28 py-20 lg:w-2/3">
+        <div class="bg-white px-4 py-20 lg:w-2/3 lg:px-28">
             <h3 class="h3">Le nouvel écrin d'Anne-Sophie Pic</h3>
             <p class="paragraph">
                 L’univers d’Anne-Sophie Pic au Beau-Rivage Palace à Lausanne,
@@ -166,7 +166,7 @@ const loadMore = async () => {
             </div>
         </div>
     </div>
-    <div class="bg-background px-28 py-20">
+    <div class="bg-background px-4 py-20 lg:px-28">
         <div class="mb-8 flex flex-row items-center gap-x-8">
             <h2 class="h2 !mb-0">Agenda</h2>
             <span class="path flex-grow"></span>
@@ -190,7 +190,7 @@ const loadMore = async () => {
             />
         </div>
     </div>
-    <div class="bg-white px-28 py-20">
+    <div class="bg-white px-4 py-20 lg:px-28">
         <h2 class="h2">Restaurants & Bars</h2>
         <div class="flex flex-col">
             <div class="flex flex-row flex-wrap gap-2">

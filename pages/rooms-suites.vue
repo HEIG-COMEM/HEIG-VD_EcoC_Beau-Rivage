@@ -80,7 +80,7 @@ const loadMoreSuites = async () => {
 
 <template>
     <h1 class="sr-only">Chambres & Suites</h1>
-    <div class="mb-20 px-28 py-20">
+    <div class="mb-20 px-4 py-20 lg:px-28">
         <div class="mb-20">
             <div class="flex flex-row">
                 <h2 class="h2 !mb-0 pr-8">Chambres</h2>
@@ -134,7 +134,7 @@ const loadMoreSuites = async () => {
             </div>
         </div>
     </div>
-    <AppPackages class="bg-background px-28 py-20" />
+    <AppPackages class="bg-background px-4 py-20 lg:px-28" />
 </template>
 
 <style scoped></style>

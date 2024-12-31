@@ -3,7 +3,7 @@
 <template>
     <h1 class="sr-only">Spa Guerlain</h1>
     <div
-        class="flex w-full flex-col items-center gap-10 px-28 pt-20 xl:flex-row xl:justify-between xl:gap-0"
+        class="flex w-full flex-col items-center gap-10 px-4 pt-20 lg:px-28 xl:flex-row xl:justify-between xl:gap-0"
     >
         <div
             class="flex flex-col items-center gap-5 text-center xl:flex-row xl:gap-0 xl:text-left"
@@ -34,7 +34,7 @@
     </div>
     <div class="hr"></div>
     <div
-        class="flex w-full flex-col-reverse justify-between gap-10 px-28 md:flex-row"
+        class="flex w-full flex-col-reverse justify-between gap-10 px-4 md:flex-row lg:px-28"
     >
         <div class="md:w-1/2">
             <h2 class="h3">Envisager le bien-être autrement</h2>
@@ -60,7 +60,7 @@
     </div>
     <div class="hr"></div>
     <div
-        class="flex w-full flex-col-reverse justify-between gap-10 px-28 md:flex-row-reverse"
+        class="flex w-full flex-col-reverse justify-between gap-10 px-4 md:flex-row-reverse lg:px-28"
     >
         <div class="md:w-1/2">
             <h2 class="h3">Un lieu de détente</h2>
@@ -109,7 +109,7 @@
     </div>
     <div class="hr"></div>
     <div
-        class="flex w-full flex-col-reverse justify-between gap-10 px-28 md:flex-row"
+        class="flex w-full flex-col-reverse justify-between gap-10 px-4 md:flex-row lg:px-28"
     >
         <div class="md:w-1/2">
             <h2 class="h3">Les invités</h2>
@@ -139,7 +139,7 @@
         />
     </div>
     <div class="hr"></div>
-    <div class="flex flex-col justify-center px-28 text-center">
+    <div class="flex flex-col justify-center px-4 text-center lg:px-28">
         <h2 class="h3">Informations pratiques</h2>
         <p class="paragraph">Ouvert tous les jours de 6h30 à 22h00.</p>
         <p class="paragraph">

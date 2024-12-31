@@ -3,7 +3,7 @@
 <template>
     <footer>
         <div
-            class="flex flex-col justify-between gap-16 bg-white px-28 py-28 md:flex-row"
+            class="flex flex-col justify-between gap-16 bg-white px-4 py-28 md:flex-row lg:px-28"
         >
             <div
                 class="flex flex-col items-center gap-8 text-center md:items-start md:text-left"
@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-col gap-24 bg-background px-28 py-16">
+        <div class="flex flex-col gap-24 bg-background px-4 py-16 lg:px-28">
             <div
                 class="flex flex-col items-center justify-between gap-16 xl:flex-row"
             >
@@ -108,7 +108,7 @@
             </div>
         </div>
         <div
-            class="flex flex-col justify-between gap-8 bg-white px-28 py-7 xl:flex-row"
+            class="flex flex-col justify-between gap-8 bg-white px-4 py-7 lg:px-28 xl:flex-row"
         >
             <nav aria-label="Secondary">
                 <ul
