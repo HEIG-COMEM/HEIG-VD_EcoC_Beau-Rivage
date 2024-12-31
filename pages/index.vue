@@ -3,7 +3,7 @@
 <template>
     <h1 class="sr-only">Accueil</h1>
     <AppHero />
-    <div class="px-28 py-20">
+    <div class="px-4 py-20 lg:px-28">
         <div class="mb-32 text-center">
             <p class="h4 mb-8 !font-bold">Éclat</p>
             <p class="paragraph mb-7">
@@ -28,6 +28,7 @@
                 <span class="path hidden flex-grow sm:block"></span>
                 <p class="c2a px-8 py-5">Programme des Festivités</p>
             </div>
+            <BaseHomeEventCard />
         </div>
     </div>
 </template>
