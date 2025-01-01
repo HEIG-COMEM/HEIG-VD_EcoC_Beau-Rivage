@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'BeauRivage';
+    src: url('../fonts/Beau-Rivage-Title.otf') format('opentype');
+}
+
+.text-pretty-font {
+    font-family: 'BeauRivage', sans-serif;
+}
+
 a {
     transition: all 0.2s ease;
 }
