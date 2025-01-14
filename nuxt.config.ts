@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
     compatibilityDate: '2024-04-03',
     devtools: { enabled: true },
-    modules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
+    modules: ['@nuxtjs/tailwindcss', '@nuxt/image', '@nuxt/content'],
     app: {
         head: {
             charset: 'utf-8',
@@ -28,7 +28,13 @@ export default defineNuxtConfig({
     },
     nitro: {
         prerender: {
-            routes: ['/', '/spa', '/restaurants-bars', '/rooms-suites'],
+            routes: [
+                '/',
+                '/spa',
+                '/restaurants-bars',
+                '/rooms-suites',
+                '/eco-conception',
+            ],
             ignore: ['/rooms/**'],
         },
     },

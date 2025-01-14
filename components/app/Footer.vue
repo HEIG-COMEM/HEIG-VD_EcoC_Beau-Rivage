@@ -125,9 +125,12 @@
                     <li><a href="#">Gestion des données</a></li>
                 </ul>
             </nav>
-            <p class="text-center text-xs text-tertiary md:text-right">
-                © Beau-Rivage Palace 2023
-            </p>
+            <router-link
+                to="/eco-conception"
+                class="text-center text-xs text-tertiary md:text-right"
+            >
+                Déclaration d'écoconception et de durabilité
+            </router-link>
         </div>
     </footer>
 </template>
