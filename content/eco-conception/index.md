@@ -1,28 +1,25 @@
 # Déclaration d'éco-conception
 
+Score global RGESN : 89%, le 14 janvier 2025
+
 ## 1. Stratégie
 
 Le service BRP a été évalué favorablement en termes d’utilité en tenant compte de RGESN.
-En effet, le service devrait permettre de : [à détailler]
+En effet, le service devrait permettre de : [à compléter]
 
 Les cibles utilisatrices du serviceBRP ont été identifiées en procédant à une analyse UX.
-Ainsi, les cibles utilisatrices du service sont [à détailler].
+Ainsi, les cibles utilisatrices du service sont les clients de l'hotel BRP.
 
 En cohérence, le service numérique répond à leurs besoins puisque présentant les fonctionnalités suivantes : informations sur l'hotel, visualisation de chambre/suites/spa ainsi que leur reservation.
 
-"Personnes référentes en écoconception numérique pour le service :
+Personnes référentes en écoconception numérique pour le service :
 
 - Nom(s): Jeremie
 - Titre: Lead Dev
 
 Pour ce faire, des audits réguliers sont réalisés tous les mois pour améliorer en continu la performance environnementale du service.
 
-L’empreinte environnementale du service BRP a été évaluée le 14 janvier 2025 en suivant la méthode de quantification d'impact RGESN. Ainsi, les indicateurs environnementaux suivants ont pu être calculés :
-
-- Empreinte carbone [à compléter]
-- Consommation d’énergie : [à compléter]
-- Consommation en ressources abiotiques minérales/métaux [à compléter]
-- Consommation en eau bleue : [à compléter]
+L’empreinte environnementale du service BRP a été évaluée le 14 janvier 2025 en suivant la méthode de quantification d'impact RGESN.
 
 Le service numérique collecte des données afin de répondre aux besoins des réservations. Il ne comporte pas de collecte de métadonnées à des fins publicitaires.
 
@@ -32,13 +29,17 @@ Le service numérique publie tout son code en opensource, sous la licence AGPL-3
 
 ### Matériel :
 
-- Processeur minimum : [à compléter]
-- Mémoire vive minimum : [à compléter]
-- Évolution à venir sur la configuration matérielle minimum à partir de [date + 2 ans] : [à compléter]
+- Processeur minimum : 1 GHz ou plus rapide, processeur 32 bits ou 64 bits
+- Mémoire vive minimum : 1 GB de RAM pour 32 bits ou 2 GB de RAM pour 64 bits
 
 ### Logiciel :
 
-- Navigateur web avec javascript activé
+- IE 9+
+- Microsoft Edge
+- Mozilla Firefox 22+
+- Chrome 17+
+- Opera 12+
+- Safari 5+
 
 ### Connexion internet :
 
@@ -77,7 +78,7 @@ Afin de prévenir les risques d’obsolescence et de limiter le besoin en mise �
 
 - Le service numérique est accessible en IPV6 (et en IPV4)
 - Le service numérique repose sur le protocole HTTPS
-- La version de TLS utilisée doit prendre en charge la version la plus récente, c’est-à-dire [à l’heure de rédaction de ce document, il s’agit de : TLS v1.3]
+- La version de TLS utilisée doit prendre en charge la version la plus récente, _à l’heure de rédaction de ce document, il s’agit de :_ TLS v1.3
 
 ## 4. UX UI
 
