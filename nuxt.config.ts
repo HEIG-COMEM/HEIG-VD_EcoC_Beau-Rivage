@@ -28,6 +28,7 @@ export default defineNuxtConfig({
     },
     nitro: {
         prerender: {
+            failOnError: true,
             routes: [
                 '/',
                 '/spa',
@@ -36,6 +37,10 @@ export default defineNuxtConfig({
                 '/eco-conception',
             ],
             ignore: ['/rooms/**'],
+        },
+        compressPublicAssets: {
+            gzip: true,
+            brotli: true,
         },
     },
 });
