@@ -82,8 +82,8 @@ const loadMore = async () => {
                 <h2 class="h3">Informations pratiques</h2>
                 <p class="paragraph text-xs">
                     <span class="font-bold"
-                        >Du mardi au samedi : de 12h00 à 13h30 et de 19h00 à
-                        21h30</span
+                        >Du mardi au samedi&nbsp;: de 12h00 à 13h30 et de 19h00
+                        à 21h30</span
                     ><br />
                     Fermé dimanche et lundi
                 </p>

@@ -20,7 +20,7 @@
             <div
                 class="flex flex-col items-center justify-center md:items-start md:self-end"
             >
-                <p class="mb-4 text-sm">Suivez-nous sur :</p>
+                <p class="mb-4 text-sm">Suivez-nous sur&nbsp;:</p>
                 <div class="flex flex-row items-center gap-5">
                     <a rel="noreferrer nofollow" aria-label="Facebook" href="#"
                         ><SvgFacebookLogo />

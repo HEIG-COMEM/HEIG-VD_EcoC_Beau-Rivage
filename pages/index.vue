@@ -74,14 +74,15 @@
                         </p>
                         <p class="paragraph mb-5">
                             Mais cette année, parmi les 100 galettes mises en
-                            vente, l’une d’elles renferme un trésor exceptionnel
-                            : une fève en or. Le chanceux qui la découvrira
-                            remportera un séjour inoubliable au Beau-Rivage
-                            Palace. Une expérience gourmande à ne pas manquer
-                            pour célébrer l’Épiphanie avec éclat et raffinement.
+                            vente, l’une d’elles renferme un trésor
+                            exceptionnel&nbsp;: une fève en or. Le chanceux qui
+                            la découvrira remportera un séjour inoubliable au
+                            Beau-Rivage Palace. Une expérience gourmande à ne
+                            pas manquer pour célébrer l’Épiphanie avec éclat et
+                            raffinement.
                         </p>
                         <p class="paragraph italic">
-                            Prix : CHF 55.- (6-8 personnes)<br />Contient
+                            Prix&nbsp;: CHF 55.- (6-8 personnes)<br />Contient
                             gluten, fruits à coque, œufs et lactose
                         </p>
                     </section>

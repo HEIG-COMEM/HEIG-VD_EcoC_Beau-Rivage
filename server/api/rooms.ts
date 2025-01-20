@@ -14,7 +14,7 @@ export default defineEventHandler((event) => {
             longDesc:
                 'Séjourner au Beau-Rivage Palace, c’est s’imprégner de son histoire, tout en se laissant surprendre par un sens innovant de l’accueil, anticipant les moindres besoins. Chacune des 168 chambres est une déclinaison du talent de Pierre-Yves Rochon à qui l’on doit une décoration moderne et élégante, dans des tons pastel enveloppants.',
             details: {
-                size: 'Superficie moyenne des chambres supérieures vue ville : 28m2',
+                size: 'Superficie moyenne des chambres supérieures vue ville&nbsp;: 28m2',
                 wifi: true,
                 package: [
                     "Large choix d'oreillers sur demande",
@@ -35,7 +35,7 @@ export default defineEventHandler((event) => {
             longDesc:
                 'Séjourner au Beau-Rivage Palace, c’est s’imprégner de son histoire, tout en se laissant surprendre par un sens innovant de l’accueil, anticipant les moindres besoins. Chacune des 168 chambres est une déclinaison du talent de Pierre-Yves Rochon à qui l’on doit une décoration moderne et élégante, dans des tons pastel enveloppants.',
             details: {
-                size: 'Superficie moyenne des chambres supérieures vue ville : 28m2',
+                size: 'Superficie moyenne des chambres supérieures vue ville&nbsp;: 28m2',
                 wifi: true,
                 package: [
                     "Large choix d'oreillers sur demande",
@@ -56,7 +56,7 @@ export default defineEventHandler((event) => {
             longDesc:
                 'Séjourner au Beau-Rivage Palace, c’est s’imprégner de son histoire, tout en se laissant surprendre par un sens innovant de l’accueil, anticipant les moindres besoins. Chacune des 168 chambres est une déclinaison du talent de Pierre-Yves Rochon à qui l’on doit une décoration moderne et élégante, dans des tons pastel enveloppants.',
             details: {
-                size: 'Superficie moyenne des chambres supérieures vue ville : 28m2',
+                size: 'Superficie moyenne des chambres supérieures vue ville&nbsp;: 28m2',
                 wifi: true,
                 package: [
                     "Large choix d'oreillers sur demande",
@@ -77,7 +77,7 @@ export default defineEventHandler((event) => {
             longDesc:
                 'Séjourner au Beau-Rivage Palace, c’est s’imprégner de son histoire, tout en se laissant surprendre par un sens innovant de l’accueil, anticipant les moindres besoins. Chacune des 168 chambres est une déclinaison du talent de Pierre-Yves Rochon à qui l’on doit une décoration moderne et élégante, dans des tons pastel enveloppants.',
             details: {
-                size: 'Superficie moyenne des chambres supérieures vue ville : 28m2',
+                size: 'Superficie moyenne des chambres supérieures vue ville&nbsp;: 28m2',
                 wifi: true,
                 package: [
                     "Large choix d'oreillers sur demande",
@@ -98,7 +98,7 @@ export default defineEventHandler((event) => {
             longDesc:
                 'Séjourner au Beau-Rivage Palace, c’est s’imprégner de son histoire, tout en se laissant surprendre par un sens innovant de l’accueil, anticipant les moindres besoins. Chacune des 168 chambres est une déclinaison du talent de Pierre-Yves Rochon à qui l’on doit une décoration moderne et élégante, dans des tons pastel enveloppants.',
             details: {
-                size: 'Superficie moyenne des chambres supérieures vue ville : 28m2',
+                size: 'Superficie moyenne des chambres supérieures vue ville&nbsp;: 28m2',
                 wifi: true,
                 package: [
                     "Large choix d'oreillers sur demande",
@@ -119,7 +119,7 @@ export default defineEventHandler((event) => {
             longDesc:
                 'Séjourner au Beau-Rivage Palace, c’est s’imprégner de son histoire, tout en se laissant surprendre par un sens innovant de l’accueil, anticipant les moindres besoins. Chacune des 168 chambres est une déclinaison du talent de Pierre-Yves Rochon à qui l’on doit une décoration moderne et élégante, dans des tons pastel enveloppants.',
             details: {
-                size: 'Superficie moyenne des chambres supérieures vue ville : 28m2',
+                size: 'Superficie moyenne des chambres supérieures vue ville&nbsp;: 28m2',
                 wifi: true,
                 package: [
                     "Large choix d'oreillers sur demande",
@@ -140,7 +140,7 @@ export default defineEventHandler((event) => {
             longDesc:
                 'Séjourner au Beau-Rivage Palace, c’est s’imprégner de son histoire, tout en se laissant surprendre par un sens innovant de l’accueil, anticipant les moindres besoins. Chacune des 168 chambres est une déclinaison du talent de Pierre-Yves Rochon à qui l’on doit une décoration moderne et élégante, dans des tons pastel enveloppants.',
             details: {
-                size: 'Superficie moyenne des chambres supérieures vue ville : 28m2',
+                size: 'Superficie moyenne des chambres supérieures vue ville&nbsp;: 28m2',
                 wifi: true,
                 package: [
                     "Large choix d'oreillers sur demande",

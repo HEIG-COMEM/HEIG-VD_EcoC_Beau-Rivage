@@ -69,7 +69,7 @@
                 par sa lumière ondoyante, enveloppe ses hôtes sous ses branches
                 réconfortantes. En complément de cette œuvre d’art, s’ajoutent
                 sur <span class="font-bold">1500 m<sup>2</sup></span> les
-                espaces suivants :
+                espaces suivants&nbsp;:
             </p>
             <ul class="paragraph list">
                 <li>1 exceptionnelle suite double au cérémonial raffiné</li>

@@ -34,7 +34,7 @@ const gallery = computed(() => {
                 <div class="path"></div>
                 <h2 class="my-6">Informations pratiques</h2>
                 <ul class="paragraph list">
-                    <li>{{ room.details.size }}</li>
+                    <li v-html="room.details.size"></li>
                     <li>
                         {{
                             room.details.wifi
@@ -46,9 +46,8 @@ const gallery = computed(() => {
                         v-if="room.details.package"
                         v-for="(addon, index) in room.details.package"
                         :key="index"
-                    >
-                        {{ addon }}
-                    </li>
+                        v-html="addon"
+                    ></li>
                 </ul>
                 <button class="c2a mt-6 px-8 py-5 text-xl">Réserver</button>
             </div>
