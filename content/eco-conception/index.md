@@ -118,6 +118,8 @@ Politique de paramétrage de la qualité, lors de l’enregistrement des images�
 
 Le service numérique a mis en place une stratégie de cache, optimisée au regard du type de contenu, du contexte d’application et des scénarios d’usage.
 
+- Mise en chache des ressources statiques (images, css, js)
+
 Le service numérique a mis en place une stratégie de compression des requêtes http.
 
 Les images sont dimmentionnées en fonction de la taille d'affichage de l'utilisateur.
