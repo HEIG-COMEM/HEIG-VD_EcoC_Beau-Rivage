@@ -1,6 +1,6 @@
 # Déclaration d'éco-conception
 
-Score global RGESN : 91%, le 14 janvier 2025
+Score global RGESN : 91%, le 19 janvier 2025
 
 ## 1. Stratégie
 
@@ -9,10 +9,9 @@ En effet, le service devrait permettre de :
 
 - Visualiser les informations de l'hotel
 - Visualiser les chambres/suites/spa
-- Réserver une chambre/suite/spa
 
 Les cibles utilisatrices du serviceBRP ont été identifiées en procédant à une analyse UX.
-Ainsi, les cibles utilisatrices du service sont les clients de l'hotel BRP.
+Ainsi, les cibles utilisatrices du service sont les clients de l'hotel BRP sont des particuliers souhaitant réserver une chambre/suite/spa.
 
 En cohérence, le service numérique répond à leurs besoins puisque présentant les fonctionnalités suivantes : informations sur l'hotel, visualisation de chambre/suites/spa ainsi que leur reservation.
 
@@ -23,7 +22,14 @@ Personnes référentes en écoconception numérique pour le service :
 
 Pour ce faire, des audits réguliers sont réalisés tous les mois pour améliorer en continu la performance environnementale du service.
 
-L’empreinte environnementale du service BRP a été évaluée le 14 janvier 2025 en suivant la méthode de quantification d'impact RGESN.
+L’empreinte environnementale du service BRP a été évaluée le 20 janvier 2025 en suivant la méthode de quantification d'impact RGESN. Ainsi, les indicateurs environnementaux suivants ont pu être calculés (pour 1000 visites) :
+
+- Empreinte carbone 1.32 KgCO2
+- Consommation d’énergie : 2,8kWh / mois
+- Consommation en ressources abiotiques minérales/métaux : non-disponible
+- Consommation en eau bleue : 19,8L
+
+L’empreinte environnementale du service BRP a été évaluée le 19 janvier 2025 en suivant la méthode de quantification d'impact RGESN.
 
 Le service numérique collecte des données afin de répondre aux besoins des réservations. Il ne comporte pas de collecte de métadonnées à des fins publicitaires.
 
@@ -37,6 +43,8 @@ Le service numérique publie tout son code en opensource, sous la licence AGPL-3
 - Mémoire vive minimum : 1 GB de RAM pour 32 bits ou 2 GB de RAM pour 64 bits
 
 ### Logiciel :
+
+Prérequis logiciels / Configuration logicielle minimum :
 
 - IE 9+
 - Microsoft Edge
@@ -54,6 +62,7 @@ Le service numérique publie tout son code en opensource, sous la licence AGPL-3
 - Le service numérique s’appuie sur un affichage dynamique 'responsive' pour s’adapter à la taille de l’écran de l’utilisateur.
 - Type d’interface compatible : tactile, clavier, souris
 - Tailles d’affichage supportées par le service : 450px, 768px, 1024px, 1200px, 1440px, 1920px
+- Détail des tests réalisés : tests de compatibilité sur les navigateurs suivants : Chrome, Firefox
 
 ---
 
@@ -92,7 +101,7 @@ Le design du service numérique repose sur un chargement à la demande du conten
 Les parcours de navigation sont optimisés et recentrés autour des fonctionnalités essentielles d’après les outils UX et les statistiques d’usages effectuées.
 Des indicateurs techniques pour les parcours identifiés ont été ou sont en cours de mise en place pour assurer l’optimisation dans le temps du parcours de navigation, à la lumière des retours récoltés.
 
-L’interface du service numérique s’appuie majoritairement sur des composants fonctionnels.
+L’interface du service numérique s’appuie majoritairement sur des composants fonctionnels. Pas d'utilisation de composants non natifs.
 
 En cohérence avec les cibles utilisatrices identifiées et l’impact environnemental différencié des contenus audiovisuels, les choix suivants de recours à l’image, l’audio ou la vidéo ont été effectués :
 
