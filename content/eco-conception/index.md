@@ -118,6 +118,7 @@ Le service n'inclut pas de dark patterns dans le design du service
 Verification périodique que les images matricielles ne sont plus dans les formats JPEG, PNG ou GIF mais en WebP, AVIF, JPEG XL.
 
 Présence de résolutions multiples : x1, x2
+
 Politique de paramétrage de la qualité, lors de l’enregistrement des images :
 
 - Qualité des images : 80%
