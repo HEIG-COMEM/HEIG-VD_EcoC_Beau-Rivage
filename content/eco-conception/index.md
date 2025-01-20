@@ -1,11 +1,15 @@
 # Déclaration d'éco-conception
 
-Score global RGESN : 89%, le 14 janvier 2025
+Score global RGESN : 91%, le 14 janvier 2025
 
 ## 1. Stratégie
 
 Le service BRP a été évalué favorablement en termes d’utilité en tenant compte de RGESN.
-En effet, le service devrait permettre de : [à compléter]
+En effet, le service devrait permettre de :
+
+- Visualiser les informations de l'hotel
+- Visualiser les chambres/suites/spa
+- Réserver une chambre/suite/spa
 
 Les cibles utilisatrices du serviceBRP ont été identifiées en procédant à une analyse UX.
 Ainsi, les cibles utilisatrices du service sont les clients de l'hotel BRP.
@@ -56,7 +60,6 @@ Le service numérique publie tout son code en opensource, sous la licence AGPL-3
 Le service numérique BRP a procédé à une revue de code et de conception pour réduire le coût environnemental du service.
 
 Les fonctionnalités du service sont adaptées de façon dynamique dans le cadre de la politique de maintenance et de décommissionnement mis en œuvre pour assurer l’adéquation entre ces fonctionnalités et les besoins utilisateurs.
-[à détailler]
 
 ## 3. Architecture
 
@@ -119,6 +122,7 @@ Politique de paramétrage de la qualité, lors de l’enregistrement des images�
 Le service numérique a mis en place une stratégie de cache, optimisée au regard du type de contenu, du contexte d’application et des scénarios d’usage.
 
 - Mise en chache des ressources statiques (images, css, js)
+- Expiration du cache après 14 jours
 
 Le service numérique a mis en place une stratégie de compression des requêtes http.
 
