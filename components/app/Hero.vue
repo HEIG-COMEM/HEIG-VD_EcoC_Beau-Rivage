@@ -1,5 +1,5 @@
 <template>
-    <div class="relative -z-10">
+    <div class="relative">
         <NuxtImg
             src="/img/home/home.png"
             class="h-[50dvh] w-full select-none object-cover"
@@ -12,6 +12,17 @@
             <SvgBRPIcon class="h-12 w-12" />
             <p class="text-pretty-font text-3xl">Beau-Rivage Palace</p>
             <p class="text-xs">Lausanne Switzerland</p>
+        </div>
+        <div
+            class="absolute bottom-0 right-0 hidden bg-backgroundAccent md:block"
+        >
+            <router-link
+                to="/rooms-suites"
+                class="c2a flex cursor-pointer flex-row items-center justify-center gap-6 p-6 font-bold uppercase"
+            >
+                <SvgIconPlus />
+                <span>Résérvation</span>
+            </router-link>
         </div>
     </div>
 </template>

@@ -15,7 +15,7 @@ const toggleMenu = () => emits('toggleMenu');
 </script>
 
 <template>
-    <header class="fixed">
+    <header class="fixed z-50">
         <div
             class="left-column absolute z-20 flex flex-col items-center justify-between bg-backgroundSand py-4"
         >
